@@ -24,7 +24,7 @@ const client = new ApolloClient({
   link: httpLink,
   cache,
   typeDefs,
-  resolvers
+  resolvers,
 });
 
 client.writeData({
